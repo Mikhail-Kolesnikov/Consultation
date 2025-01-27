@@ -209,5 +209,20 @@ function printCarInfo(car:Car)  {
 function getFullName(firstName: string, lastName?: string): string {
     return lastName ? `${firstName} ${lastName}` : firstName;
   }
+
+  function sum(a:number, b:number):number{
+    return a+b 
+
+  }
+
+  const dev = (a:number, b:number): number=>a/b
+
+  console.log(sum(10,12))
+  console.log(sum(20,12))
+
+  function toUpper(str: Car ):string{
+    return car.model.toLocaleUpperCase();
+  }
+
   
 
